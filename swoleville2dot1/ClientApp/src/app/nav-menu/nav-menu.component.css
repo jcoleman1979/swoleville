@@ -54,18 +54,19 @@ li.link-active a:focus {
 
 @media (max-width: 767px) {
     .main-nav {
+        display: inline-block;
         position: sticky;
-        margin-left: 0px;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
     }
     .navbar-toggle{
-        position: fixed;
         background-color: red;
         bottom: 0;
         right: 0;
     }
     .navbar {
         display: inline-block;
-        position: fixed;
     }
 
     .navbar-brand {
