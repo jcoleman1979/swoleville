@@ -1,7 +1,10 @@
+body {
+    background-color: var(--bodybg-color);
+    color: var(--bodytext-color);
+  }
 
-
-h1 {
-    font-size: 35px;
-    font-family: Chalkduster, fantasy;
-    text-shadow: 4px 4px 4px red;
+  h1 {
+    font-size: var(--h1-size);
+    font-family: var(--h1-font-famiily);
+    text-shadow: var(--h1-shadow);
   }

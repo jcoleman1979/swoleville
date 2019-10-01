@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --hover-bg-color: charcoal;
+  --round-corners: 30px;
+  --btn-shadow: 1px 1px 4px 4px red;
+  --h1-shadow: 2px 2px 4px red;
+  --bodybg-color: whitesmoke;
+  --bodytext-color: black;
+  --h1-size: 35px;
+  --h1-font-famiily: Chalkduster, fantasy;
+  --h1-shadow: 4px 4px 4px red;
+}
+
+/* Provide sufficient contrast against white background */
+html {
+  background-color: var(--bodybg-color);
+  color: var(--bodytext-color);
+}
+
+
+@media (max-width: 767px) {
+  body {
+    text-align: center;
+  }
+}
+
+code {
+  color: #e01a76;
+}
+
+/*
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+  */
+
+/********************COLOR THEMES*****************************/
+/*
+  / Colors
+$blue:    #007bff !default; // primary
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default; // danger
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default; // warning
+$green:   #28a745 !default; // success
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default; // info
+
+// Grays
+$white:    #fff !default;
+$gray-100: #f8f9fa !default; // light
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default; // secondary
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default; // dark
+$gray-900: #212529 !default;
+$black:    #000 !default;
+*/
