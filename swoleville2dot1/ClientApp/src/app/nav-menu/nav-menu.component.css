@@ -78,7 +78,7 @@ li.link-active a:focus {
 @media (min-width: 768px) {
     .main-nav {
         height: 100%;
-        width: calc(20% - 20px);
+        width: calc(16.667% - 0px);  /* This sets the navbar width equivelant to the column settings in app.component.html bootstrap grid.  Default setting is 2 and 10 columns so 2/12 = 16.667% */
         display: block;
     }
     .navbar {
@@ -86,10 +86,12 @@ li.link-active a:focus {
         border-width: 0px;
         height: 100%;
         display: block;
+        
     }
     .navbar-header {
         float: none;
         display: block;
+        
     }
     .navbar-brand {
         height: 100%;

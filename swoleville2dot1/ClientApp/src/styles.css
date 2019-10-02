@@ -5,11 +5,12 @@
   --round-corners: 30px;
   --btn-shadow: 1px 1px 4px 4px red;
   --h1-shadow: 2px 2px 4px red;
-  --bodybg-color: whitesmoke;
+  --bodybg-color:  whitesmoke;
   --bodytext-color: black;
   --h1-size: 35px;
   --h1-font-famiily: Chalkduster, fantasy;
   --h1-shadow: 4px 4px 4px red;
+  --h1-taglinetxt: "WELCOME TO 502 BODYBUILDING!!!"
 }
 
 /* Provide sufficient contrast against white background */
