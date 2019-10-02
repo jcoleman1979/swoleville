@@ -1,5 +1,5 @@
 {
     "appService.preDeployTask": "publish-release",
     "appService.deploySubpath": "swoleville2dot1/bin/Release/netcoreapp2.1/publish",
-    "appService.defaultWebAppToDeploy": ""
+    "appService.defaultWebAppToDeploy": "/subscriptions/7cbb9906-033e-45fc-9b88-49d8cc5354b0/resourceGroups/resourcegroup_502bb/providers/Microsoft.Web/sites/swole"
 }
